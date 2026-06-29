@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="footer">
       <div>
         <img src={logo} alt="Logo DST Marketing - Media" />
-        <p>Tư vấn và thiết kế hình ảnh cho nhà hàng, khách sạn, resort và quán cafe.</p>
+        <p>Dịch vụ tận tâm - Nâng tầm thương hiệu.</p>
       </div>
       <nav aria-label="Điều hướng cuối trang">
         {navItems.map((item) => (

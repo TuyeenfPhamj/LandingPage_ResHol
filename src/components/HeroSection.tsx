@@ -1,4 +1,4 @@
-import { CalendarDays, Hotel, Utensils } from "lucide-react";
+import { BedDouble, Hotel, Utensils } from "lucide-react";
 import { ActionButton } from "./ActionButton";
 import { AnimatedHeading } from "./AnimatedHeading";
 import { FadeIn } from "./FadeIn";
@@ -7,7 +7,7 @@ import { HeroShaderBackground } from "./HeroShaderBackground";
 const heroSignals = [
   { label: "Nhà hàng", icon: Utensils },
   { label: "Khách sạn", icon: Hotel },
-  { label: "Sự kiện", icon: CalendarDays },
+  { label: "Phòng nghỉ", icon: BedDouble },
 ];
 
 export function HeroSection() {
@@ -18,34 +18,30 @@ export function HeroSection() {
         <div className="grid gap-8 lg:grid-cols-[1.06fr_0.94fr] lg:items-end">
           <div>
             <FadeIn delay={180}>
-              <p className="hero-kicker">DST Marketing - Media | Restaurant & Hotel Design</p>
+              <p className="hero-kicker">DST Marketing - Media</p>
             </FadeIn>
             <AnimatedHeading
-              text="Chọn đúng gói thiết kế cho nhà hàng, khách sạn của bạn."
+              text="Nâng tầm hình ảnh nhà hàng và khách sạn."
               className="hero-title"
             />
             <FadeIn delay={620}>
               <p className="hero-copy">
-                DST tư vấn miễn phí và thiết kế bộ hình ảnh, ấn phẩm, nội dung truyền thông cho nhà hàng,
-                khách sạn, resort và quán cafe. Bạn có định hướng rõ trong thời gian ngắn trước khi đầu tư
-                vào menu, social post, chương trình đặt bàn, đặt phòng hoặc tổ chức sự kiện.
+                Dịch vụ tận tâm - nâng tầm thương hiệu qua các bộ nội dung cho món ăn,
+                không gian khách sạn, chương trình ưu đãi và truyền thông mạng xã hội.
               </p>
             </FadeIn>
             <FadeIn className="mt-7 flex flex-wrap gap-3" delay={760}>
-              <ActionButton href="#lien-he">Đặt lịch tư vấn miễn phí</ActionButton>
+              <ActionButton href="#dich-vu">Khám phá dịch vụ</ActionButton>
               <ActionButton href="#du-an" variant="light">
-                Xem sản phẩm thực tế
+                Xem dự án
               </ActionButton>
             </FadeIn>
           </div>
           <FadeIn className="hero-side" delay={840}>
             <div className="hero-side-card">
-              <span className="hero-side-label">Dành cho chủ cơ sở dịch vụ</span>
-              <strong>Từ hình ảnh rời rạc đến bộ nhận diện có thể bán hàng.</strong>
-              <p>
-                Làm rõ món ăn, phòng nghỉ, không gian, ưu đãi và lý do để khách đặt bàn,
-                đặt phòng hoặc hỏi lịch tổ chức sự kiện.
-              </p>
+              <span className="hero-side-label">Định vị</span>
+              <strong>Dịch vụ tận tâm - Nâng tầm thương hiệu</strong>
+              <p>Truyền thông hình ảnh cho nhà hàng, khách sạn, ẩm thực và dịch vụ lưu trú.</p>
               <div className="hero-signal-grid">
                 {heroSignals.map((item) => {
                   const Icon = item.icon;
@@ -59,8 +55,8 @@ export function HeroSection() {
               </div>
             </div>
             <div className="hero-mini-card">
-              <span>Tư vấn miễn phí</span>
-              <strong>Chọn hướng thiết kế phù hợp trước khi chi tiền</strong>
+              <span>Restaurant & Hotel</span>
+              <strong>Visual - Content - Social</strong>
             </div>
           </FadeIn>
         </div>
