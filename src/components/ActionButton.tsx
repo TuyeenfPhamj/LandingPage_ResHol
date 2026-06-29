@@ -11,7 +11,6 @@ export function ActionButton({ href, children, variant = "primary" }: ActionButt
     <a className={`roll-button ${variant}`} href={href}>
       <span className="roll-text">
         <span>{children}</span>
-        <span>{children}</span>
       </span>
       <span className="roll-icon" aria-hidden="true">
         <ArrowUpRight size={18} />
