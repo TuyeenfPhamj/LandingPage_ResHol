@@ -18,17 +18,17 @@ export function HeroSection() {
         <div className="grid gap-8 lg:grid-cols-[1.06fr_0.94fr] lg:items-end">
           <div>
             <FadeIn delay={180}>
-              <p className="hero-kicker">DST Marketing - Media | Restaurant & Hotel Design</p>
+              <p className="hero-kicker">Tư vấn thiết kế cho nhà hàng - khách sạn</p>
             </FadeIn>
             <AnimatedHeading
-              text="Chọn đúng gói thiết kế cho nhà hàng, khách sạn của bạn."
+              text="Khách nhìn vào là muốn đặt bàn, đặt phòng."
               className="hero-title"
             />
             <FadeIn delay={620}>
               <p className="hero-copy">
-                DST tư vấn miễn phí và thiết kế bộ hình ảnh, ấn phẩm, nội dung truyền thông cho nhà hàng,
-                khách sạn, resort và quán cafe. Bạn có định hướng rõ trong thời gian ngắn trước khi đầu tư
-                vào menu, social post, chương trình đặt bàn, đặt phòng hoặc tổ chức sự kiện.
+                Nếu nhà hàng, khách sạn hoặc resort của bạn có dịch vụ tốt nhưng hình ảnh chưa đủ thuyết phục,
+                DST giúp bạn chọn đúng hướng thiết kế, làm rõ điểm đáng tiền và tạo bộ nội dung để khách dễ tin,
+                dễ hỏi giá, dễ đặt lịch.
               </p>
             </FadeIn>
             <FadeIn className="mt-7 flex flex-wrap gap-3" delay={760}>
@@ -41,10 +41,10 @@ export function HeroSection() {
           <FadeIn className="hero-side" delay={840}>
             <div className="hero-side-card">
               <span className="hero-side-label">Dành cho chủ cơ sở dịch vụ</span>
-              <strong>Từ hình ảnh rời rạc đến bộ nhận diện có thể bán hàng.</strong>
+              <strong>Không bắt đầu bằng “làm cho đẹp”. Bắt đầu bằng “khách cần thấy gì để chọn bạn”.</strong>
               <p>
-                Làm rõ món ăn, phòng nghỉ, không gian, ưu đãi và lý do để khách đặt bàn,
-                đặt phòng hoặc hỏi lịch tổ chức sự kiện.
+                Buổi tư vấn giúp bạn biết nên ưu tiên menu, hình ảnh phòng nghỉ, bài đăng ưu đãi,
+                hồ sơ sự kiện hay bộ nhận diện trước để không chi tiền lan man.
               </p>
               <div className="hero-signal-grid">
                 {heroSignals.map((item) => {
@@ -60,7 +60,7 @@ export function HeroSection() {
             </div>
             <div className="hero-mini-card">
               <span>Tư vấn miễn phí</span>
-              <strong>Chọn hướng thiết kế phù hợp trước khi chi tiền</strong>
+              <strong>Nhận hướng đi rõ trước khi chọn gói thiết kế</strong>
             </div>
           </FadeIn>
         </div>

@@ -28,7 +28,7 @@ export const services: Service[] = [
     title: "Thiết kế hình ảnh nhà hàng",
     tag: "Nhà hàng",
     description:
-      "Định hướng bộ ảnh, menu, set tiệc, ưu đãi đặt bàn và ấn phẩm social để khách nhìn vào là hiểu món, hiểu không gian và muốn liên hệ.",
+      "Làm menu, hình món, set tiệc và ưu đãi dễ hiểu hơn để khách thấy món nào đáng thử, không gian nào phù hợp và nên đặt bàn lúc nào.",
     image: hoCoTien,
     icon: Utensils,
   },
@@ -36,7 +36,7 @@ export const services: Service[] = [
     title: "Thiết kế hình ảnh khách sạn",
     tag: "Khách sạn",
     description:
-      "Làm rõ phòng nghỉ, sảnh, tiện ích, dịch vụ lưu trú và cảm giác cao cấp mà khách cần thấy trước khi quyết định đặt phòng.",
+      "Trình bày phòng nghỉ, sảnh, tiện ích và trải nghiệm lưu trú theo cách giúp khách yên tâm hơn trước khi hỏi giá hoặc đặt phòng.",
     image: grandviewHall,
     icon: Hotel,
   },
@@ -44,7 +44,7 @@ export const services: Service[] = [
     title: "Bộ nhận diện chiến dịch",
     tag: "Marketing",
     description:
-      "Thiết kế key visual, banner, bài đăng, feedback và chương trình ưu đãi theo từng mục tiêu: khai trương, mùa du lịch, đặt tiệc, đặt phòng.",
+      "Thiết kế bài đăng, banner, feedback và ưu đãi cho từng dịp như khai trương, mùa du lịch, tiệc công ty, sinh nhật hoặc gói lưu trú.",
     image: thienAnh,
     icon: PenTool,
   },
@@ -52,7 +52,7 @@ export const services: Service[] = [
     title: "Tư vấn gói phù hợp",
     tag: "Tư vấn",
     description:
-      "Buổi tư vấn miễn phí giúp chủ nhà hàng, khách sạn chọn đúng hướng thiết kế, phạm vi triển khai và mức đầu tư phù hợp.",
+      "Bạn nói rõ tình trạng hiện tại, DST gợi ý nên làm phần nào trước để tránh mua gói quá rộng hoặc không đúng nhu cầu.",
     image: grandviewEvent,
     icon: Handshake,
   },
@@ -86,12 +86,12 @@ export const reasons: Reason[] = [
   {
     title: "Hiểu đúng ngành dịch vụ",
     description:
-      "Copy và hình ảnh tập trung vào thứ khách thật sự cân nhắc: món ăn, phòng nghỉ, không gian, dịch vụ, ưu đãi và cảm giác tin tưởng.",
+      "Nội dung tập trung vào thứ khách thật sự cân nhắc: món ăn có hấp dẫn không, phòng có đáng tiền không, không gian có phù hợp không.",
   },
   {
-    title: "Tư vấn trước khi triển khai",
+    title: "Biết nên làm gì trước",
     description:
-      "Bạn không phải mua một gói chung chung. DST bắt đầu bằng việc hiểu mô hình, mục tiêu và ngân sách để đề xuất hướng phù hợp.",
+      "Bạn không phải đoán nên làm menu, ảnh phòng, bài đăng hay hồ sơ sự kiện trước. Buổi tư vấn giúp xác định thứ tự ưu tiên.",
   },
   {
     title: "Có sản phẩm thực tế",
@@ -101,26 +101,26 @@ export const reasons: Reason[] = [
   {
     title: "Giảm rủi ro khi thuê",
     description:
-      "Quy trình có bước định hướng, thiết kế, nhận phản hồi và điều chỉnh để hạn chế lo lắng về chi phí và chất lượng đầu ra.",
+      "Bạn được trao đổi định hướng trước, xem sản phẩm thực tế và có bước phản hồi để hạn chế nỗi lo chi phí bỏ ra không xứng đáng.",
   },
 ];
 
 export const processSteps: ProcessStep[] = [
   {
     title: "Chẩn đoán nhu cầu",
-    description: "Xác định mô hình nhà hàng, khách sạn, resort hoặc quán cafe, nhóm khách mục tiêu và vấn đề đang cần xử lý.",
+    description: "Bạn chia sẻ mô hình, nhóm khách muốn thu hút và vấn đề đang gặp: ít khách hỏi, ảnh chưa đẹp hay nội dung chưa rõ.",
   },
   {
     title: "Đề xuất hướng thiết kế",
-    description: "Chọn phong cách hình ảnh, thông điệp chủ đạo, nhóm ấn phẩm cần có và thứ tự ưu tiên triển khai.",
+    description: "DST gợi ý phong cách hình ảnh, thông điệp chính và hạng mục nên làm trước để phù hợp mục tiêu và ngân sách.",
   },
   {
     title: "Triển khai nội dung",
-    description: "Thiết kế key visual, hình ảnh món ăn/phòng nghỉ, bài đăng, banner, feedback và nội dung đặt bàn, đặt phòng.",
+    description: "Thiết kế hình món, phòng nghỉ, banner, bài đăng, feedback hoặc nội dung đặt bàn, đặt phòng theo hướng đã thống nhất.",
   },
   {
     title: "Tối ưu sau phản hồi",
-    description: "Hoàn thiện bộ nội dung theo phản hồi thực tế để thương hiệu có thể dùng ngay trên fanpage, profile hoặc kênh bán hàng.",
+    description: "Điều chỉnh lại câu chữ, bố cục và điểm nhấn để nội dung có thể dùng ngay trên fanpage, profile hoặc kênh bán hàng.",
   },
 ];
 

@@ -9,8 +9,8 @@ export function WhyChooseUsSection() {
         <FadeIn>
           <SectionHeading
             label="04 / Vì sao chọn DST"
-            title="Giảm rủi ro khi thuê thiết kế, tăng sự rõ ràng trước khi triển khai."
-            description="Điều khiến chủ nhà hàng, khách sạn băn khoăn thường không chỉ là đẹp hay không đẹp, mà là chi phí có xứng đáng không và sản phẩm có dùng được trong bán hàng thực tế không."
+            title="Bạn cần một hướng thiết kế dùng được, không phải thêm một bộ ảnh để cất trong máy."
+            description="Điều chủ nhà hàng, khách sạn thường lo là chi phí có xứng đáng không, sản phẩm có đúng gu khách hàng không và có hỗ trợ bán hàng thật không. DST làm rõ những điểm đó trước khi triển khai."
           />
         </FadeIn>
         <div className="why-grid">

@@ -9,8 +9,8 @@ export function ServicesSection() {
       <FadeIn>
         <SectionHeading
           label="02 / Dịch vụ"
-          title="Các nhóm thiết kế giúp khách hiểu nhanh và quyết định nhanh hơn."
-          description="Từ tư vấn định hướng đến thiết kế ấn phẩm, DST tập trung vào đúng những điểm ảnh hưởng tới quyết định đặt bàn, đặt phòng, tổ chức sự kiện và đánh giá chất lượng thương hiệu."
+          title="Bạn cần khách đặt bàn, đặt phòng hay hỏi lịch sự kiện?"
+          description="Mỗi gói thiết kế được định hướng theo mục tiêu kinh doanh cụ thể. Không chỉ làm hình cho đẹp, mà giúp khách nhìn thấy lý do để chọn nhà hàng, khách sạn hoặc địa điểm của bạn."
           align="center"
         />
       </FadeIn>

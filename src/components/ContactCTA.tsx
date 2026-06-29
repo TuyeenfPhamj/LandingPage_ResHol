@@ -8,15 +8,15 @@ export function ContactCTA() {
       <FadeIn className="contact-panel">
         <div className="contact-copy">
           <p className="section-label">06 / Liên hệ</p>
-          <h2>Đặt lịch tư vấn miễn phí cho nhà hàng, khách sạn của bạn.</h2>
+          <h2>Muốn biết nên cải thiện hình ảnh ở đâu trước?</h2>
           <p>
-            Gửi vài thông tin cơ bản về mô hình, nhu cầu và kênh liên hệ. DST sẽ giúp bạn xác định
-            hướng thiết kế phù hợp trước khi chọn gói triển khai.
+            Gửi thông tin cơ bản về nhà hàng, khách sạn hoặc resort của bạn. DST sẽ xem nhu cầu hiện tại
+            và gợi ý hướng thiết kế phù hợp trước khi bạn quyết định chi phí.
           </p>
           <div className="contact-proof">
-            <span>Tư vấn miễn phí</span>
+            <span>Không mất phí tư vấn ban đầu</span>
             <span>Phù hợp nhà hàng, khách sạn, resort, cafe</span>
-            <span>Phản hồi theo thông tin bạn để lại</span>
+            <span>Nhận gợi ý theo đúng tình trạng của bạn</span>
           </div>
           <div className="contact-actions">
             <ActionButton href="#top" variant="light">
@@ -25,7 +25,7 @@ export function ContactCTA() {
           </div>
         </div>
         <form className="contact-form" onSubmit={(event) => event.preventDefault()}>
-          <p className="form-intro">Điền form trong khoảng 30 giây. Chỉ cần thông tin đủ để DST tư vấn đúng hướng.</p>
+          <p className="form-intro">Điền nhanh trong khoảng 30 giây. Càng rõ vấn đề, tư vấn càng sát.</p>
           <label>
             <span>Tên thương hiệu / cơ sở</span>
             <input type="text" name="brand" autoComplete="organization" placeholder="VD: Khách sạn ABC, Nhà hàng XYZ" />
@@ -57,7 +57,7 @@ export function ContactCTA() {
           </button>
           <p className="form-privacy">
             <Mail size={14} />
-            Có thể bổ sung email, số điện thoại và fanpage chính thức tại đây.
+            Thông tin này chỉ dùng để liên hệ tư vấn theo yêu cầu của bạn.
           </p>
         </form>
       </FadeIn>

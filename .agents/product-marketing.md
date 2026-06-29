@@ -3,7 +3,7 @@
 *Last updated: 2026-06-29*
 
 ## Product Overview
-**One-liner:** DST Marketing - Media tu van va thiet ke hinh anh, an pham, noi dung truyen thong cho nha hang, khach san, resort va quan cafe.
+**One-liner:** DST Marketing - Media giup nha hang, khach san, resort va quan cafe trinh bay hinh anh/noi dung theo cach khach de tin, de hoi gia va de dat lich.
 **What it does:** Giup chu co so dich vu dinh huong lai hinh anh thuong hieu, chon goi thiet ke phu hop va co bo noi dung de khach hang de hinh dung mon an, khong gian, phong nghi, su kien va trai nghiem dich vu. Trong landing page hien tai, trong tam la tu van mien phi va dan khach vao form lien he.
 **Product category:** Dich vu thiet ke/truyen thong cho nha hang - khach san.
 **Product type:** Professional service.
@@ -65,7 +65,7 @@
 
 ## Brand Voice
 **Tone:** Chuyen gia, cao cap, dang tin.
-**Style:** Tieng Viet 90-95%, ro rang, tu van, thuc te.
+**Style:** Tieng Viet 90-95%, noi truc tiep voi chu co so va khach hang cua ho; tranh giong bao cao noi bo.
 **Personality:** Chuyen nghiep, tinh te, hieu nganh, chu dao.
 
 ## Proof Points

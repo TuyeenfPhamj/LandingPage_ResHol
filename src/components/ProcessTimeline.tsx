@@ -8,8 +8,8 @@ export function ProcessTimeline() {
       <FadeIn>
         <SectionHeading
           label="05 / Quy trình"
-          title="Tư vấn nhanh, triển khai rõ, điều chỉnh theo phản hồi thật."
-          description="Bạn bắt đầu bằng một buổi trao đổi miễn phí. DST giúp xác định nhu cầu, đề xuất hướng thiết kế và triển khai bộ nội dung phù hợp với mục tiêu kinh doanh."
+          title="Từ một buổi trao đổi, bạn biết nên làm gì trước."
+          description="DST nghe tình trạng hiện tại, mục tiêu khách hàng và ngân sách dự kiến, rồi đề xuất thứ tự ưu tiên: hình ảnh, menu, bài đăng, hồ sơ sự kiện hay nội dung đặt phòng."
           align="center"
         />
       </FadeIn>
