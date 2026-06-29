@@ -12,9 +12,9 @@ export function AboutSection() {
       <div className="content-grid">
         <FadeIn>
           <SectionHeading
-            label="01 / Khách đang cân nhắc gì"
-            title="Khách không chỉ xem ảnh đẹp. Họ đang hỏi: nơi này có đáng để mình chọn không?"
-            description="Một tấm hình mờ, menu khó đọc hoặc bài đăng thiếu thông tin có thể làm khách bỏ qua dù dịch vụ của bạn tốt. DST giúp bạn trình bày món ăn, phòng nghỉ, không gian và ưu đãi theo cách khách hiểu nhanh giá trị trước khi nhắn tin."
+            label="01 / Vấn đề cần giải quyết"
+            title="Khách không chỉ xem ảnh đẹp. Họ cần đủ lý do để chọn bạn."
+            description="Một tấm hình mờ, menu khó đọc hoặc bài đăng thiếu thông tin có thể làm khách bỏ qua dù dịch vụ tốt. DST giúp bạn trình bày món ăn, phòng nghỉ, không gian và ưu đãi rõ ràng hơn để khách hiểu giá trị trước khi nhắn tin."
           />
           <div className="mt-8">
             <ActionButton href="#lien-he">Nhận tư vấn miễn phí</ActionButton>
@@ -25,7 +25,7 @@ export function AboutSection() {
           <img className="about-small" src={hoCoTien} alt="Ấn phẩm truyền thông món ăn nhà hàng Hồ Cô Tiên" loading="lazy" />
           <div className="about-note">
             <ArrowDownRight size={20} />
-            <span>Rõ món, rõ phòng, rõ giá trị, rõ bước liên hệ tiếp theo.</span>
+            <span>Rõ món, rõ phòng, rõ giá trị, rõ bước liên hệ.</span>
           </div>
         </FadeIn>
       </div>

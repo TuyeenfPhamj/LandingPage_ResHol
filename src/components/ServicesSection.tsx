@@ -9,8 +9,8 @@ export function ServicesSection() {
       <FadeIn>
         <SectionHeading
           label="02 / Dịch vụ"
-          title="Bạn cần khách đặt bàn, đặt phòng hay hỏi lịch sự kiện?"
-          description="Mỗi gói thiết kế được định hướng theo mục tiêu kinh doanh cụ thể. Không chỉ làm hình cho đẹp, mà giúp khách nhìn thấy lý do để chọn nhà hàng, khách sạn hoặc địa điểm của bạn."
+          title="Chọn đúng hạng mục cho mục tiêu hiện tại của bạn."
+          description="Mỗi nhóm dịch vụ được định hướng theo mục tiêu cụ thể: tăng khách đặt bàn, tăng hỏi phòng, giới thiệu không gian sự kiện hoặc làm chiến dịch ưu đãi chỉn chu hơn."
           align="center"
         />
       </FadeIn>

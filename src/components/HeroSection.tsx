@@ -18,17 +18,16 @@ export function HeroSection() {
         <div className="grid gap-8 lg:grid-cols-[1.06fr_0.94fr] lg:items-end">
           <div>
             <FadeIn delay={180}>
-              <p className="hero-kicker">Tư vấn thiết kế cho nhà hàng - khách sạn</p>
+              <p className="hero-kicker">Thiết kế truyền thông cho nhà hàng - khách sạn</p>
             </FadeIn>
             <AnimatedHeading
-              text="Khách nhìn vào là muốn đặt bàn, đặt phòng."
+              text="Làm hình ảnh đủ rõ để khách muốn đặt bàn, đặt phòng."
               className="hero-title"
             />
             <FadeIn delay={620}>
               <p className="hero-copy">
-                Nếu nhà hàng, khách sạn hoặc resort của bạn có dịch vụ tốt nhưng hình ảnh chưa đủ thuyết phục,
-                DST giúp bạn chọn đúng hướng thiết kế, làm rõ điểm đáng tiền và tạo bộ nội dung để khách dễ tin,
-                dễ hỏi giá, dễ đặt lịch.
+                DST giúp nhà hàng, khách sạn, resort và quán cafe trình bày món ăn, phòng nghỉ, không gian,
+                ưu đãi và sự kiện theo cách khách hiểu nhanh giá trị, tin tưởng hơn và dễ để lại thông tin liên hệ.
               </p>
             </FadeIn>
             <FadeIn className="mt-7 flex flex-wrap gap-3" delay={760}>
@@ -41,10 +40,10 @@ export function HeroSection() {
           <FadeIn className="hero-side" delay={840}>
             <div className="hero-side-card">
               <span className="hero-side-label">Dành cho chủ cơ sở dịch vụ</span>
-              <strong>Không bắt đầu bằng “làm cho đẹp”. Bắt đầu bằng “khách cần thấy gì để chọn bạn”.</strong>
+              <strong>Không chỉ làm hình cho đẹp. Mỗi ấn phẩm cần giúp khách ra quyết định nhanh hơn.</strong>
               <p>
-                Buổi tư vấn giúp bạn biết nên ưu tiên menu, hình ảnh phòng nghỉ, bài đăng ưu đãi,
-                hồ sơ sự kiện hay bộ nhận diện trước để không chi tiền lan man.
+                Buổi tư vấn giúp bạn xác định hạng mục nên làm trước: menu, hình ảnh phòng nghỉ,
+                bài đăng ưu đãi, hồ sơ sự kiện hay bộ nhận diện chiến dịch.
               </p>
               <div className="hero-signal-grid">
                 {heroSignals.map((item) => {
@@ -60,7 +59,7 @@ export function HeroSection() {
             </div>
             <div className="hero-mini-card">
               <span>Tư vấn miễn phí</span>
-              <strong>Nhận hướng đi rõ trước khi chọn gói thiết kế</strong>
+              <strong>Có hướng triển khai rõ trước khi đầu tư thiết kế</strong>
             </div>
           </FadeIn>
         </div>
