@@ -8,9 +8,9 @@ export function WhyChooseUsSection() {
       <div className="content-grid why-content-grid">
         <FadeIn>
           <SectionHeading
-            label="04 / Khác biệt"
-            title="Làm rõ lý do để khách chọn nơi ăn và nơi ở."
-            description="Từ món ăn, phòng nghỉ, đặt bàn, đặt phòng đến giới thiệu không gian, mỗi nội dung cần có vai trò rõ trong hành trình ra quyết định."
+            label="04 / Vì sao chọn DST"
+            title="Giảm rủi ro khi thuê thiết kế, tăng sự rõ ràng trước khi triển khai."
+            description="Điều khiến chủ nhà hàng, khách sạn băn khoăn thường không chỉ là đẹp hay không đẹp, mà là chi phí có xứng đáng không và sản phẩm có dùng được trong bán hàng thực tế không."
           />
         </FadeIn>
         <div className="why-grid">

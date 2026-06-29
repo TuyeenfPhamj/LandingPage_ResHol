@@ -460,6 +460,25 @@ img {
   text-align: justify;
 }
 
+.contact-proof {
+  display: grid;
+  max-width: 520px;
+  margin-top: 22px;
+  gap: 8px;
+}
+
+.contact-proof span {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  border-radius: 999px;
+  background: rgba(40, 85, 84, 0.08);
+  padding: 9px 14px;
+  color: rgba(24, 54, 53, 0.82);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
 .about-collage {
   position: relative;
   min-height: 560px;
@@ -803,6 +822,20 @@ img {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.46);
   padding: clamp(18px, 3vw, 28px);
+}
+
+.form-intro,
+.form-privacy {
+  margin: 0;
+  color: rgba(24, 54, 53, 0.68);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.form-privacy {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .contact-form label {

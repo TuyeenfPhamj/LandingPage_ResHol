@@ -26,7 +26,7 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
           ))}
         </div>
         <div className="mt-8">
-          <ActionButton href="#lien-he">Liên hệ tư vấn</ActionButton>
+          <ActionButton href="#lien-he">Tư vấn miễn phí</ActionButton>
         </div>
       </div>
     </div>

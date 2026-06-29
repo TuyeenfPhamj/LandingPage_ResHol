@@ -1,6 +1,8 @@
 node_modules/
 dist/
 .npm-cache/
+.agents/skills/
 .chrome-*/
 *.log
 *.pdf
+skills-lock.json

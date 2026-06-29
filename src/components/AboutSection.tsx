@@ -12,12 +12,12 @@ export function AboutSection() {
       <div className="content-grid">
         <FadeIn>
           <SectionHeading
-            label="01 / Giới thiệu"
-            title="DST Marketing - Media cho nhà hàng và khách sạn."
-            description="Nội dung được chắt lọc từ các bộ ấn phẩm nhà hàng, khách sạn đã cung cấp: món ăn, không gian, ưu đãi đặt bàn, hình ảnh lưu trú và nhận diện truyền thông."
+            label="01 / Vấn đề"
+            title="Cơ sở đẹp nhưng hình ảnh chưa đủ thuyết phục, khách vẫn lướt qua."
+            description="Nhiều nhà hàng, khách sạn và quán cafe có sản phẩm tốt nhưng thiếu bộ hình ảnh, thông điệp và ấn phẩm đủ rõ để khách tin tưởng. DST giúp bạn biến món ăn, phòng nghỉ, không gian và dịch vụ thành nội dung dễ hiểu, dễ chọn và dễ liên hệ."
           />
           <div className="mt-8">
-            <ActionButton href="#dich-vu">Xem dịch vụ</ActionButton>
+            <ActionButton href="#lien-he">Nhận định hướng miễn phí</ActionButton>
           </div>
         </FadeIn>
         <FadeIn className="about-collage" delay={140}>
@@ -25,7 +25,7 @@ export function AboutSection() {
           <img className="about-small" src={hoCoTien} alt="Ấn phẩm truyền thông món ăn nhà hàng Hồ Cô Tiên" loading="lazy" />
           <div className="about-note">
             <ArrowDownRight size={20} />
-            <span>Nội dung cần rõ món, rõ phòng, rõ không gian và rõ lý do để khách hành động.</span>
+            <span>Rõ món, rõ phòng, rõ không gian, rõ lý do để khách hành động.</span>
           </div>
         </FadeIn>
       </div>

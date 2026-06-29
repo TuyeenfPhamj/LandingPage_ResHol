@@ -23,7 +23,7 @@ export function Navbar() {
         </div>
         <div className="hidden lg:block">
           <ActionButton href="#lien-he" variant="light">
-            Liên hệ tư vấn
+            Tư vấn miễn phí
           </ActionButton>
         </div>
         <button className="icon-button lg:hidden" type="button" onClick={() => setOpen(true)} aria-label="Mở menu">
