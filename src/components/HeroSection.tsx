@@ -1,6 +1,5 @@
 import { CalendarDays, Hotel, Utensils } from "lucide-react";
 import { ActionButton } from "./ActionButton";
-import { AnimatedHeading } from "./AnimatedHeading";
 import { FadeIn } from "./FadeIn";
 import { HeroShaderBackground } from "./HeroShaderBackground";
 
@@ -20,10 +19,9 @@ export function HeroSection() {
             <FadeIn delay={180}>
               <p className="hero-kicker">Thiết kế truyền thông cho nhà hàng - khách sạn</p>
             </FadeIn>
-            <AnimatedHeading
-              text="Làm hình ảnh đủ rõ để khách muốn đặt bàn, đặt phòng."
-              className="hero-title"
-            />
+            <h1 className="hero-title">
+              Hình ảnh <span className="gradient-text">chỉn chu</span> cho nhà hàng và khách sạn.
+            </h1>
             <FadeIn delay={620}>
               <p className="hero-copy">
                 DST giúp nhà hàng, khách sạn, resort và quán cafe trình bày món ăn, phòng nghỉ, không gian,
@@ -39,7 +37,7 @@ export function HeroSection() {
           </div>
           <FadeIn className="hero-side" delay={840}>
             <div className="hero-side-card">
-              <span className="hero-side-label">Dành cho chủ cơ sở dịch vụ</span>
+              <span className="hero-side-label">Giải pháp truyền thông</span>
               <strong>Không chỉ làm hình cho đẹp. Mỗi ấn phẩm cần giúp khách ra quyết định nhanh hơn.</strong>
               <p>
                 Buổi tư vấn giúp bạn xác định hạng mục nên làm trước: menu, hình ảnh phòng nghỉ,
@@ -58,8 +56,8 @@ export function HeroSection() {
               </div>
             </div>
             <div className="hero-mini-card">
-              <span>Tư vấn miễn phí</span>
-              <strong>Có hướng triển khai rõ trước khi đầu tư thiết kế</strong>
+              <span>Restaurant & Hotel</span>
+              <strong>Hình ảnh - Nội dung - Mạng xã hội</strong>
             </div>
           </FadeIn>
         </div>

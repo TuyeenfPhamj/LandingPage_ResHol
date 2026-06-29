@@ -9,8 +9,14 @@ export function ServicesSection() {
       <FadeIn>
         <SectionHeading
           label="02 / Dịch vụ"
-          title="Chọn đúng hạng mục cho mục tiêu hiện tại của bạn."
-          description="Mỗi nhóm dịch vụ được định hướng theo mục tiêu cụ thể: tăng khách đặt bàn, tăng hỏi phòng, giới thiệu không gian sự kiện hoặc làm chiến dịch ưu đãi chỉn chu hơn."
+          title={
+            <>
+              Những hạng mục truyền thông giúp khách hàng ra quyết định{" "}
+              <span className="gradient-text">đặt bàn</span>,{" "}
+              <span className="gradient-text">đặt phòng</span>.
+            </>
+          }
+          description="DST Group triển khai các hạng mục truyền thông cho nhà hàng và khách sạn, từ ấn phẩm món ăn, hình ảnh không gian đến nhận diện chiến dịch và nội dung hỗ trợ đặt bàn, đặt phòng."
           align="center"
         />
       </FadeIn>

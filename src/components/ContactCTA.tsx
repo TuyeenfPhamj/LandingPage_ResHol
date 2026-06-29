@@ -8,10 +8,12 @@ export function ContactCTA() {
       <FadeIn className="contact-panel">
         <div className="contact-copy">
           <p className="section-label">06 / Liên hệ</p>
-          <h2>Nhận tư vấn miễn phí cho hạng mục nên làm trước.</h2>
+          <h2>
+            Cùng làm bộ nội dung <span className="gradient-text">phù hợp</span> cho thương hiệu của bạn.
+          </h2>
           <p>
-            Gửi thông tin cơ bản về nhà hàng, khách sạn, resort hoặc quán cafe của bạn. DST sẽ xem nhu cầu hiện tại,
-            mục tiêu khách hàng và gợi ý hướng thiết kế phù hợp trước khi bạn quyết định chi phí.
+            Hãy cho DST biết mô hình dịch vụ, nhóm khách mục tiêu và điều bạn muốn khách hàng cảm nhận.
+            Đội ngũ DST sẽ đề xuất hướng nội dung, hình ảnh và cách triển khai phù hợp với nhu cầu thực tế của thương hiệu.
           </p>
           <div className="contact-proof">
             <span>Không mất phí tư vấn ban đầu</span>
@@ -27,12 +29,18 @@ export function ContactCTA() {
         <form className="contact-form" onSubmit={(event) => event.preventDefault()}>
           <p className="form-intro">Điền nhanh trong khoảng 30 giây. Càng rõ tình trạng, phần tư vấn càng sát nhu cầu.</p>
           <label>
-            <span>Tên thương hiệu / cơ sở</span>
+            <span>Tên thương hiệu</span>
             <input type="text" name="brand" autoComplete="organization" placeholder="VD: Khách sạn ABC, Nhà hàng XYZ" />
           </label>
           <label>
-            <span>Email hoặc số điện thoại</span>
-            <input type="text" name="contact" autoComplete="email" placeholder="Email, số điện thoại hoặc Zalo" />
+            <span>Thông tin liên hệ</span>
+            <input
+              type="text"
+              name="contact"
+              autoComplete="email"
+              placeholder="Số điện thoại hoặc email để DST phản hồi"
+              required
+            />
           </label>
           <label>
             <span>Nhu cầu chính</span>
@@ -44,12 +52,16 @@ export function ContactCTA() {
               <option>Thiết kế hình ảnh nhà hàng</option>
               <option>Thiết kế hình ảnh khách sạn / resort</option>
               <option>Bộ ấn phẩm chiến dịch / sự kiện</option>
-              <option>Nội dung đặt bàn, đặt phòng</option>
+              <option>Nội dung hỗ trợ đặt bàn, đặt phòng</option>
             </select>
           </label>
           <label>
-            <span>Vấn đề bạn muốn cải thiện</span>
-            <textarea name="message" rows={4} placeholder="VD: ít khách đặt bàn, hình ảnh chưa đẹp, chưa biết bắt đầu marketing từ đâu..." />
+            <span>Ghi chú</span>
+            <textarea
+              name="message"
+              rows={4}
+              placeholder="Ví dụ: mô hình kinh doanh, hạng mục cần triển khai, thời gian dự kiến hoặc vấn đề thương hiệu đang gặp phải."
+            />
           </label>
           <button className="submit-button" type="submit">
             <Send size={16} />

@@ -1,8 +1,9 @@
+import type { ReactNode } from "react";
 import { SectionLabel } from "./SectionLabel";
 
 interface SectionHeadingProps {
   label: string;
-  title: string;
+  title: ReactNode;
   description?: string;
   align?: "left" | "center";
 }

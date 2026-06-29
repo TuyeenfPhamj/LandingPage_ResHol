@@ -13,8 +13,8 @@ export function ExperienceGallery() {
         <FadeIn>
           <SectionHeading
             label="03 / Dự án tiêu biểu"
-            title="Xem sản phẩm thực tế trước khi quyết định."
-            description="DST đã triển khai hình ảnh truyền thông cho các mô hình nhà hàng và khách sạn như Grand View Palace Hạ Long Hotel, Nhà hàng Hồ Cô Tiên và Nhà hàng Thiên Anh."
+            title="Các dự án truyền thông DST đã triển khai cho nhà hàng và khách sạn."
+            description="Từ hình ảnh, ấn phẩm đến nội dung truyền thông, DST đồng hành cùng các thương hiệu nhà hàng và khách sạn trong việc xây dựng trải nghiệm thương hiệu rõ ràng, nhất quán."
           />
         </FadeIn>
       </div>

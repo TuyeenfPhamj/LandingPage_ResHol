@@ -8,9 +8,14 @@ export function WhyChooseUsSection() {
       <div className="content-grid why-content-grid">
         <FadeIn>
           <SectionHeading
-            label="04 / Vì sao chọn DST"
-            title="Thiết kế cần giúp khách hiểu và hành động, không chỉ nhìn cho đẹp."
-            description="Điều chủ nhà hàng, khách sạn thường lo là chi phí có xứng đáng không, sản phẩm có đúng gu khách hàng không và có hỗ trợ bán hàng thật không. DST làm rõ nhu cầu, ưu tiên và hướng thể hiện trước khi triển khai."
+            label="04 / Khác biệt"
+            title={
+              <>
+                DST giúp thương hiệu của bạn trở thành{" "}
+                <span className="gradient-text gradient-text-light">lựa chọn rõ ràng hơn</span>.
+              </>
+            }
+            description="DST xây dựng nội dung và hình ảnh để thương hiệu làm rõ giá trị dịch vụ, tạo thiện cảm và thúc đẩy khách hàng đưa ra quyết định."
           />
         </FadeIn>
         <div className="why-grid">

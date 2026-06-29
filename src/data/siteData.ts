@@ -28,7 +28,7 @@ export const services: Service[] = [
     title: "Thiết kế hình ảnh nhà hàng",
     tag: "Nhà hàng",
     description:
-      "Thiết kế menu, hình món, set tiệc và ưu đãi theo cách khách xem là hiểu món nào đáng thử, không gian nào phù hợp và vì sao nên đặt bàn ngay.",
+      "DST thiết kế nội dung giới thiệu món ăn, set menu và ưu đãi, giúp thương hiệu truyền tải thông tin rõ ràng và hỗ trợ khách hàng lựa chọn dễ dàng hơn.",
     image: hoCoTien,
     icon: Utensils,
   },
@@ -36,23 +36,23 @@ export const services: Service[] = [
     title: "Thiết kế hình ảnh khách sạn",
     tag: "Khách sạn",
     description:
-      "Trình bày phòng nghỉ, sảnh, tiện ích và trải nghiệm lưu trú rõ ràng hơn để khách thấy giá trị trước khi hỏi giá hoặc đặt phòng.",
+      "DST xây dựng hình ảnh sảnh, phòng nghỉ, khu phục vụ và trải nghiệm lưu trú theo đúng tinh thần thương hiệu của khách sạn.",
     image: grandviewHall,
     icon: Hotel,
   },
   {
-    title: "Bộ ấn phẩm cho chiến dịch",
-    tag: "Marketing",
+    title: "Bộ nhận diện chiến dịch",
+    tag: "Chiến dịch",
     description:
-      "Thiết kế bài đăng, banner, feedback và ưu đãi cho khai trương, mùa du lịch, tiệc công ty, sinh nhật hoặc gói lưu trú để chiến dịch đồng bộ hơn.",
+      "DST phát triển key visual, banner, bài đăng mạng xã hội và ấn phẩm ưu đãi cho từng chiến dịch bán hàng.",
     image: thienAnh,
     icon: PenTool,
   },
   {
-    title: "Tư vấn hướng triển khai",
-    tag: "Tư vấn",
+    title: "Nội dung hỗ trợ đặt bàn, đặt phòng",
+    tag: "Booking",
     description:
-      "DST xem tình trạng hiện tại, mục tiêu và ngân sách dự kiến, rồi gợi ý hạng mục nên ưu tiên để tránh mua gói quá rộng hoặc lệch nhu cầu.",
+      "DST chuẩn hoá thông điệp và hình ảnh, giúp khách hàng nhanh chóng nắm được dịch vụ, ưu đãi và thông tin cần thiết trước khi đặt bàn hoặc đặt phòng.",
     image: grandviewEvent,
     icon: Handshake,
   },
@@ -61,54 +61,54 @@ export const services: Service[] = [
 export const galleryItems: GalleryItem[] = [
   {
     title: "Grand View Palace Hạ Long Hotel",
-    caption: "Hình ảnh giới thiệu không gian khách sạn, sảnh phục vụ và trải nghiệm lưu trú để khách dễ hình dung trước khi hỏi phòng.",
+    caption: "DST triển khai nội dung và hình ảnh giới thiệu không gian, dịch vụ và trải nghiệm lưu trú của khách sạn.",
     image: grandviewHall,
     wide: true,
   },
   {
     title: "Nhà hàng Hồ Cô Tiên",
-    caption: "Ấn phẩm món ăn, ưu đãi đặt bàn và nội dung giúp khách dễ chọn món, chọn dịp và liên hệ nhà hàng.",
+    caption: "DST phát triển ấn phẩm món ăn, nội dung hỗ trợ đặt bàn và hình ảnh truyền thông cho nhà hàng.",
     image: hoCoTien,
   },
   {
     title: "Nhà hàng Thiên Anh",
-    caption: "Nội dung nhận diện nhà hàng, chương trình ưu đãi và bài đăng giúp thương hiệu xuất hiện chỉn chu hơn trên kênh bán hàng.",
+    caption:
+      "DST xây dựng nội dung giới thiệu, ấn phẩm ưu đãi và các điểm chạm truyền thông giúp nhà hàng duy trì kết nối với khách hàng.",
     image: thienAnh,
   },
   {
-    title: "Grand View Palace Hạ Long Hotel",
-    caption: "Bộ hình ảnh phục vụ truyền thông cho phòng nghỉ, khu dịch vụ và nhu cầu tổ chức sự kiện tại khách sạn.",
+    title: "Grand View Palace Hạ Long Hotel — Truyền thông sự kiện",
+    caption: "DST phát triển bộ hình ảnh phục vụ truyền thông cho không gian, sự kiện và các hoạt động nổi bật của khách sạn.",
     image: grandviewEvent,
   },
 ];
 
 export const reasons: Reason[] = [
   {
-    title: "Hiểu hành vi khách ngành dịch vụ",
-    description:
-      "Nội dung tập trung vào điều khách thật sự cân nhắc: món ăn có hấp dẫn không, phòng có đáng tiền không, không gian có phù hợp cho dịp của họ không.",
+    title: "Hiểu đúng ngành dịch vụ",
+    description: "DST nghiên cứu đặc thù nhà hàng, khách sạn và hành trình khách hàng để lựa chọn đúng nội dung cần truyền thông.",
   },
   {
     title: "Biết hạng mục nào nên ưu tiên",
     description:
-      "Bạn không phải tự đoán nên làm menu, ảnh phòng, bài đăng hay hồ sơ sự kiện trước. Buổi tư vấn giúp xác định thứ tự ưu tiên theo mục tiêu bán hàng.",
+      "DST làm rõ các thông tin có khả năng thúc đẩy chuyển đổi: món ăn, không gian, ưu đãi, dịch vụ và hành động khách hàng cần thực hiện tiếp theo.",
   },
   {
-    title: "Có sản phẩm thực tế",
-    description:
-      "Khách hàng có thể xem hình ảnh từ các dự án như Grand View Palace Hạ Long Hotel, Nhà hàng Hồ Cô Tiên và Nhà hàng Thiên Anh trước khi trao đổi.",
+    title: "Đồng bộ hình ảnh thương hiệu",
+    description: "DST đảm bảo logo, màu sắc, key visual và bố cục được triển khai nhất quán trên từng hạng mục truyền thông.",
   },
   {
-    title: "Giảm rủi ro khi thuê",
+    title: "Phù hợp kênh mạng xã hội",
     description:
-      "Bạn được trao đổi định hướng trước, xem sản phẩm thực tế và có bước phản hồi để hạn chế rủi ro chi phí bỏ ra không đúng kỳ vọng.",
+      "DST tối ưu thiết kế để sử dụng linh hoạt trên bài đăng, banner, chương trình ưu đãi, feedback và nội dung hỗ trợ đặt bàn, đặt phòng.",
   },
 ];
 
 export const processSteps: ProcessStep[] = [
   {
-    title: "Hiểu mô hình và mục tiêu",
-    description: "Bạn chia sẻ loại hình kinh doanh, nhóm khách muốn thu hút và vấn đề đang gặp: ít khách hỏi, ảnh chưa đẹp hay nội dung chưa rõ.",
+    title: "Tiếp nhận brief dịch vụ",
+    description:
+      "DST tiếp nhận thông tin về mô hình kinh doanh, khách hàng mục tiêu, dịch vụ chủ lực và các chương trình cần truyền thông.",
   },
   {
     title: "Đề xuất thứ tự ưu tiên",
@@ -119,8 +119,8 @@ export const processSteps: ProcessStep[] = [
     description: "Triển khai hình món, phòng nghỉ, banner, bài đăng, feedback hoặc nội dung đặt bàn, đặt phòng theo hướng đã thống nhất.",
   },
   {
-    title: "Hoàn thiện để bàn giao",
-    description: "Điều chỉnh câu chữ, bố cục và điểm nhấn để nội dung sẵn sàng dùng trên fanpage, profile, landing page hoặc kênh bán hàng.",
+    title: "Bàn giao và điều chỉnh",
+    description: "DST bàn giao bộ ấn phẩm, tiếp nhận phản hồi và điều chỉnh để phù hợp với nhu cầu triển khai thực tế.",
   },
 ];
 

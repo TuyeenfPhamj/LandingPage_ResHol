@@ -8,8 +8,12 @@ export function ProcessTimeline() {
       <FadeIn>
         <SectionHeading
           label="05 / Quy trình"
-          title="Quy trình rõ từ tư vấn đến bàn giao."
-          description="DST bắt đầu từ tình trạng hiện tại, mục tiêu khách hàng và ngân sách dự kiến, rồi đề xuất thứ tự ưu tiên: hình ảnh, menu, bài đăng, hồ sơ sự kiện hay nội dung đặt phòng."
+          title={
+            <>
+              Quy trình gọn để nội dung sớm được <span className="gradient-text">đưa vào sử dụng</span>.
+            </>
+          }
+          description="DST triển khai từ bước tiếp nhận thông tin dịch vụ, định hướng hình ảnh, thiết kế ấn phẩm đến tinh chỉnh theo nhu cầu sử dụng thực tế của từng thương hiệu."
           align="center"
         />
       </FadeIn>
